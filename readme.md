@@ -80,3 +80,4 @@ cosa vogliamo fare
 1. cambio un elemento dentro il bottone next
 1. inserisco gli elementi nel DOM
 1. (bonus 1) creo un controllo che renda le foto in slide infinite
+1. (bonus 2) creo un controllo per l'id thumb da stampare in pagina

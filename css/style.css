@@ -8,6 +8,11 @@
     max-width: 1200px;
     margin: 0 auto;
     height: 100vh;
+    position: relative;
+}
+
+.d-flex{
+    display: flex;
 }
 
 #carousel{
@@ -15,6 +20,28 @@
     width: 700px;
     height: 300px;
     margin: 30px auto;
+}
+
+#thumbnails{
+    width: 100%;
+    margin: 30px auto;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#thumbnails img{
+    width: calc(100% / 5);
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+#thumbnails img.active{
+    opacity: 1;
+    border: 2px solid white;
 }
 
 #carousel .gallery{
