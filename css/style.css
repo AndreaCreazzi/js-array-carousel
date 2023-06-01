@@ -4,7 +4,48 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 50px;
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+#carousel{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 30px auto;
+}
+
+#carousel .gallery{
+    width: 100%;
+    margin-left: 150px;
+}
+
+#carousel img{
+    width: 400px;
     height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: none;
+}
+
+#carousel img.active{
+    display: block;
+}
+
+#carousel .fa-solid{
+    position: absolute;
+    font-size: 2rem;
+    cursor: pointer;
+    top: 70%;
+    
+}
+
+#prec{
+    right: 110%;
+}
+
+#next{
+    left: 95%;
 }
