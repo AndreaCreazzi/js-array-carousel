@@ -69,10 +69,14 @@ cosa vogliamo fare
 
 <br>
 
-1.
-1.
-1.
-1.
-1.
-1.
-1.
+1. Prendo gli elementi dal DOM
+1. creo un array per le foto
+1. preparo l'html
+1. preparo un ciclo per le foto
+1. verifico se il ciclo funziona
+1. inserisco il bottone prev in ascolto
+1. inserisco gli elementi dentro il bottone
+1. inserisco il bottone next in ascolto
+1. cambio un elemento dentro il bottone next
+1. inserisco gli elementi nel DOM
+1. (bonus 1) creo un controllo che renda le foto in slide infinite
