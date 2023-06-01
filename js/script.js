@@ -40,7 +40,9 @@ images[currentIndex].classList.add(`active`);
 // metto in ascolto il prev
 
 nextElement.addEventListener(`click` , function(){
-    if(currentIndex === images.length - 1) return;
+    if(currentIndex === images.length - 1){
+       currentIndex = 0
+    };
 
     images[currentIndex].classList.remove(`active`)
 
@@ -51,7 +53,9 @@ nextElement.addEventListener(`click` , function(){
 
 
 prevElement.addEventListener(`click` , function(){
-    if(!currentIndex) return;
+    if(!currentIndex){
+        currentIndex = 4
+    };
 
     images[currentIndex].classList.remove(`active`)
 
